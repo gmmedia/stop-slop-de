@@ -81,7 +81,7 @@ stop-slop-de/
 ### 1. Claude Code / Antigravity / Agent-Tools
 Klone dieses Repo oder binde den Ordner als lokalen Skill ein:
 ```bash
-git clone https://github.com/jochen-gererstorfer/stop-slop-de.git
+git clone https://github.com/gmmedia/stop-slop-de.git
 ```
 In Claude Code oder Antigravity kann der Skill über `SKILL.md` direkt geladen werden.
 

@@ -3,7 +3,7 @@ name: stop-slop-de
 description: Entfernt typische KI-Schreibmuster, Floskeln und unnatürlichen Ton aus deutschen Texten. Für Entwürfe, Redaktion und Textoptimierung.
 metadata:
   trigger: Texte verfassen, deutsche Entwürfe überarbeiten, KI-Texte humanisieren
-  author: Jochen Gererstorfer (https://github.com/jochen-gererstorfer)
+  author: Jochen Gererstorfer (https://github.com/gmmedia)
   based_on: Hardik Pandya (https://github.com/hardikpandya/stop-slop)
 ---
 
