@@ -78,20 +78,30 @@ stop-slop-de/
 
 ## Schnelleinstieg
 
-### 1. Claude Code / Antigravity / Agent-Tools
+### 1. Installation via Skills CLI (Empfohlen für Claude Code, Cursor, Codex etc.)
+Installiere den Skill direkt über das offizielle CLI von [skills.sh](https://www.skills.sh):
+```bash
+npx skills add gmmedia/stop-slop-de
+```
+Oder global für alle deine Projekte:
+```bash
+npx skills add gmmedia/stop-slop-de -g
+```
+
+### 2. Manuell klonen (Claude Code, Antigravity etc.)
 Klone dieses Repo oder binde den Ordner als lokalen Skill ein:
 ```bash
 git clone https://github.com/gmmedia/stop-slop-de.git
 ```
 In Claude Code oder Antigravity kann der Skill über `SKILL.md` direkt geladen werden.
 
-### 2. Claude Projects / Custom GPTs
+### 3. Claude Projects / Custom GPTs
 Lade die Datei `SKILL.md` sowie die Dateien aus dem Ordner `references/` als Projektwissen / Knowledge hoch.
 
-### 3. Benutzerdefinierte Anweisungen (Custom Instructions)
+### 4. Benutzerdefinierte Anweisungen (Custom Instructions)
 Kopiere die 8 Kernregeln und die Checkliste aus `SKILL.md` direkt in deine Custom Instructions bei ChatGPT, Claude oder Perplexity.
 
-### 4. System-Prompt / API
+### 5. System-Prompt / API
 Füge den Inhalt von `SKILL.md` in deinen System-Prompt ein. Die Referenzdateien können bei Bedarf punktuell beigezogen werden.
 
 ---
